@@ -1,13 +1,16 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseURL = "http://yusufsheiqh.github.io/"
+languageCode = "en-gb"
+title = "Yusuf Sheikh"
 theme = "hyde"
 
-[Menus]
-  [[Menus.main]]
-  Name = "Github"
-  URL = "https://github.com/yusufsheiqh/"
+[menus]
+  [[menus.main]]
+  name = "Github"
+  url = "https://github.com/yusufsheiqh/"
 
-  [[Menus.main]]
-  Name = "LinkedIn"
-  URL = "https://www.linkedin.com/in/yusufsheikh/"
+  [[menus.main]]
+  name = "LinkedIn"
+  url = "https://www.linkedin.com/in/yusufsheikh/"
+
+[params]
+  description = "Software Engineer."
