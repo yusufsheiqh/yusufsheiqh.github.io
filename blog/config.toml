@@ -1,4 +1,4 @@
-baseURL = "http://yusufsheiqh.github.io/"
+baseUrl = "http://yusufsheiqh.github.io/"
 languageCode = "en-gb"
 title = "Yusuf Sheikh"
 theme = "hyde"
@@ -14,3 +14,4 @@ theme = "hyde"
 
 [params]
   description = "Software Engineer."
+  layoutReverse = true
