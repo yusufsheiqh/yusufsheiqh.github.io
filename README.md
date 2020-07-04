@@ -10,6 +10,7 @@ The site uses Hugo as the static site generator and GitHub Pages for hosting.
 Install the following dependencies:
 
 - [Hugo](https://gohugo.io) - open-source static site generator
+  - see the [Usage](#usage) section
 - [Git](https://git-scm.com) (_optional_) - version control system
 
 Use `Git` to clone the repository:
@@ -20,6 +21,14 @@ $ cd site
 ```
 
 ### Usage
+
+If [Homebrew](https://brew.sh) is installed on a Linux/MacOS device, run the following command:
+
+```shell script
+$ make setup
+```
+
+This will install Hugo, or display the version of Hugo if already installed.
 
 Run the following command to serve the site locally:
 
